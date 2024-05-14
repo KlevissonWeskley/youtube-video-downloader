@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/ytb-logo.svg" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+    <title>Vídeo downloader</title>
+</head>
+<body>
+    
+    <div class="app-container">
+        <div class="app-logo">
+            <img class="img-logo" src="./assets/ytb-logo.svg" alt="logo do youtube"> 
+            <span>Download de vídeos do youtube</span>
+        </div>
+
+        <div class="downloader-container">
+            <input type="text" placeholder="Cole aqui o link do vídeo" id="input-link" >
+            <button id="btn-download">Baixar</button>
+        </div>
+    </div>
+    
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
